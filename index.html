@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Estilos/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+              <!-- Menu de navegacion -->
+    <header> 
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Shux Store</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Incio</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Coleccion
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Hombre<a></li>
+                          <li><a class="dropdown-item" href="#">Mujer<a></li>
+                          <li><a class="dropdown-item" href="#">Accesorios<a></li>
+                        </ul>
+                      </li>
+
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactos">Contactos</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="iconos-externos">
+                    <i class="fa-solid fa-user" id="iconoUsuario" onclick="redireccionFormulario()"></i>
+                    <i class="fa-solid fa-cart-shopping" id="carrito-icon"></i>
+                    </div>
+                </div>
+                 
+                
+              
+               
+              </nav>
+     </header>
+
+    <main>
+              <!-- Inicio -->
+
+      <section class="inicio" id="Inicio">
+
+        <div class="texto-inicio">
+          <h1>Atrévete a explorar<br><span> a abrazar las últimas tendencias</span></h1>
+          <p>cada día se puede descubrir algo emocionante y nuevo</p>
+          <a href="#coleccion" class="boton">Mirar coleccion</a>
+        </div>
+
+        
+
+      </section>
+
+
+      <!-- Coleccion -->
+
+      <section class="coleccion" id="coleccion" >
+
+        <div class="texto-central">
+
+          <h2>Coleccion </h2>
+
+        </div>
+
+        <div class="coleccion-contenido">
+
+          <div class="fila">
+
+            <img src="/Imagenes/Camisa1.jpg" alt="camisa azul marino" >
+
+            <div class="coleccion-texto">
+
+              <h5>Camisas</h5>
+
+             
+
+            </div>
+
+            
+
+          </div>
+
+          <!-- 2 -->
+
+          <div class="fila">
+
+            <img src="/Imagenes/Pantalon4.jpg" alt="pantalon de color negro">
+
+            <div class="coleccion-texto">
+
+              <h5>Pantalones</h5>
+
+             
+
+            </div>
+
+            
+          </div>
+
+          <!-- 3 -->
+
+          <div class="fila">
+
+            <img src="/Imagenes/buzo4-.jpg" alt="buzo">
+
+            <div class="coleccion-texto">
+
+              <h5>Buzos</h5>
+
+             
+
+            </div>
+
+           
+
+          </div>
+
+          <!-- 4 -->
+
+          <div class="fila">
+
+            <img src="/Imagenes/Remera blanca 1.jpg" alt="remera blanca">
+
+            <div class="coleccion-texto">
+
+              <h5>Remeras</h5>
+
+              
+
+            </div>
+
+            
+          </div>
+
+          <!-- 5 -->
+
+          <div class="fila">
+
+            <img src="/Imagenes/short1.jpg" alt="short">
+
+            <div class="coleccion-texto">
+
+              <h5>Shorts</h5>
+
+             
+
+            </div>
+
+            
+
+          </div>
+
+          <!-- 6 -->
+
+          <div class="fila">
+
+            <img src="/Imagenes/Anorak-RVR_01.jpg" alt="anorak ">
+
+            <div class="coleccion-texto">
+
+              <h5>Anorak</h5>
+
+              
+
+            </div>
+
+            
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Descuento Banner  -->
+
+      <section class="descuento" id="descuento">
+
+        <div class="descuento-texto">
+
+          <h6>Venta de Verano</h6>
+
+          <h4>20% OFF <br> <span>En Nuevos Productos</span></h4>
+
+          <a href="#" class="boton">Consiguelo Ahora</a>
+
+        </div>
+
+      </section>
+
+      <!-- Inicio de los Nuevos Ingresos -->
+
+      <section class="nuevos ingresos" id="nuevos ingresos">
+
+        <div class="texto-central">
+
+          <h2>Nuevos Ingresos</h2>
+
+        </div>
+
+        <!-- Box Nuevos Ingresos -->
+
+        <div class="nuevos-ing-contenido">
+
+          <div class="caja">
+
+            <img src="/Imagenes/Preventa-camisa-blanca-1.jpg" alt="camisa blanca con dibujos" id="imageChange">
+
+            <h5> Camisa Blanca </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+            <button type="button" class="bot0n" id="botonCambio" onclick="botonCambio()">Comprar</button>
+
+          </div>
+
+          <!-- 2 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/remera-rio-colornegro-1.jpg" alt="remera de color negro">
+
+            <h5> Remera Negra rio </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+              
+            </div>
+
+            <button type="button" class="bot0n" onclick="redireccion()">Comprar</button>
+
+          </div>
+
+          <!-- 3 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/remera-caballo-crudo1.jpg" alt="remera blanca con dibujos">
+
+            <h5> Remera Caballo Crudo </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+              
+            </div>
+
+            <button type="button" class="bot0n" onclick="redireccion()">Comprar</button>
+
+          </div>
+
+          <!-- 4 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/remera-caballo-crudo1.jpg" alt="">
+
+            <h5> Remera Caballo Crudo </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+              
+            </div>
+
+            <button type="button" class="bot0n" onclick="redireccion()">Comprar</button>
+
+          </div>
+
+          <!-- 5 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/jeannegro.jpg" alt="jean de color negro">
+
+            <h5> Jean Negro N°3 </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+              
+            </div>
+
+            <button type="button" class="bot0n" onclick="redireccion()">Comprar</button>
+
+          </div>
+
+          <!-- 6 -->
+
+          <div class="caja" >
+
+            <img src="/Imagenes/Jean.beige.jpg" alt="Pantalon Beige"  >
+
+            <h5> Pantalon Beige </h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+              
+            </div>
+
+            <button type="button" class="bot0n" onclick="redireccion()">Comprar</button>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <!-- Inicio de la seccion Accesorios -->
+
+      <section class="accesorios" id="accesorios">
+
+        <div class="texto-central">
+
+          <h2>Accesorios</h2>
+
+        </div>
+
+        <!-- BOX Accesorios -->
+
+        <div class="accesorios-contenido">
+
+          <div class="caja">
+
+            <img src="/Imagenes/Accesorio-1-riñonera.jpg" alt="riñonera">
+
+            <h5> Riñonera</h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+
+          <!-- Accesorio 2 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/morral.1.jpg" alt="morral">
+
+            <h5> Morral</h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+          
+          <!-- Accesorio 3 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/MEDIASMARCANEGRO03.jpg" alt="pares de medias">
+
+            
+            <h5> Medias</h5>
+
+            <h6>$190</h6>
+         
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+
+          <!-- Accesorio 4 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/Clipper-RVR_01_23f9917d-6177-43c3-adec-1c4fa874da2c.jpg" alt="encendedores">
+
+            <h5> Clipper</h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+
+          <!-- Accesorio 5 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/Tabla-Pez-Old-School_04.jpg" alt="tablas de skate">
+
+            <h5> Tabla Pez Cruiser</h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+
+          <!-- Accesorio 6 -->
+
+          <div class="caja">
+
+            <img src="/Imagenes/Billetera-Sacoa-Negro_02.jpg" alt="billeteras">
+
+            <h5> Billetera</h5>
+
+            <h6>$190</h6>
+
+            <div class="sale">
+
+              <h4>sale</h4>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- Fin de la Seccion de Acceosirios -->
+
+      </section>
+
+
+      <!-- Seccion de Patrocinadores -->
+
+      <section class="patrocinios" >
+
+        <div class="patrocinios-content">
+
+          <div class="imagenes">
+
+            <img src="/Imagenes/gucci2.png" alt="patrocinador gucci">
+
+          </div>
+
+          <!-- Segundo Patrocinio -->
+
+          <div class="imagenes">
+
+            <img src="/Imagenes/patrocinio2.png" alt="patrocinador calvin klein">
+
+          </div>
+
+          <!-- Patrocinio 3 -->
+
+          <div class="imagenes">
+
+            <img src="/Imagenes/patrocinio3.png" alt="patrocinador givenchi">
+
+          </div>
+
+         
+        </div>
+
+
+      </section>
+
+      <!-- Contacto -->
+
+      <footer>
+
+      <section id="contacto" class="contacto">
+
+        <div class="contacto-content-iconos">
+
+          <h3>Shux Store</h3>
+
+          <h5>Únase a nosotros en las redes sociales y manténgase al tanto.</h5>
+
+          <div class="iconos">
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+
+          </div>
+
+        </div>
+
+        <!-- Explorar -->
+
+        <div class="contacto-content" id="contactos">
+
+          <h3>Explorar</h3>
+
+          <a class="nav-link active" aria-current="page" href="#">Incio</a>
+          <a class="nav-link active" aria-current="page" href="#coleccion">Coleccion</a>
+          <a class="nav-link active" aria-current="page" href="#descuento">Productos con descuento</a>
+          <a class="nav-link active" aria-current="page" href="#nuevos ingresos">Nuevos Ingresos</a>
+          <a class="nav-link active" aria-current="page" href="#accesorios">Accesorios</a>
+          
+          </div>
+
+        </div>
+
+        </div>
+
+        </div>
+
+         <!-- Nuestros Servicios -->
+
+        <div class="contacto-content">
+          <h3>Nuestros Servicios</h3>
+          <a href="#">Precios</a>
+          <a href="#">Envios Sin Costo</a>
+          <a href="#">Tarjetas de regalo</a>
+
+        </div>
+
+        <!-- Compras -->
+
+        <div class="contacto-content">
+          <h3>Shooping</h3>
+          <a href="#">Tienda de ropa</a>
+          <a href="#">Zapatos en tendencia</a>
+          <a href="#">Accesorios</a>
+
+        </div>
+
+      </section>
+
+      <div class="ultimo-texto">
+        <p class="copy"> Copyright &copy;   Todos los derechos reservados Diego Olmos 2023 </p>
+      </div>
+
+      <!-- Scroll que te lleva hacia arriba -->
+
+      <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+      
+    </footer>
+    
+
+    </main>
+
+
+    
+   <script src="/scripts/mi-script.js"></script>
+    
+</body>
+</html>

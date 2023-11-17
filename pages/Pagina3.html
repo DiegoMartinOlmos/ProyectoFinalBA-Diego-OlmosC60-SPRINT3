@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estilos/Styles-Form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Formulario de registro e inicio de sesion</title>
+</head>
+
+<body>
+        <div class="contenedor">
+
+            <div class="form-content">
+
+                    <h1>Registro</h1>
+
+                <form action="#" method="post" id="miFormulario">
+
+                     <!-- Input field Nombre-->
+
+                    <div class="input-group">
+
+                        <div class="input-field" id="nameInput">
+
+                            <i class="fa-solid fa-user"></i>
+
+                            <input type="text" placeholder="Nombre" required>
+
+                         </div>
+
+
+                        <!-- Input field Correo -->
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <input type="email" placeholder="Email" required >
+
+                        </div>
+
+                        <!-- Input Contraseña -->
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input type="password" placeholder="Contraseña" required>
+
+
+                        </div>
+
+                        <!-- Olvidaste tu contraseña -->
+                    
+                        <p>Olvidaste tu  <a href="#"> contraseña</a></p>
+
+                        <!-- Botones -->
+
+                </div> 
+
+                    <div class="btn-field">
+
+                        <button id="signUp" signUp>Registro</button>
+
+                        <button id="signIn" type="button" class="disable">Login</button>
+
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>
+   
+      <script src="/scripts/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Encabezado */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+
+
+}
+
+/* Iconos que no vienen con la asignacion de boostrap , el carrito y el de usuario */
+
+.iconos-externos {
+    margin: 15px;
+}
+
+
+/* Todas las secciones van a tener estas caracteristicas */
+
+
+section {
+    padding: 100px 14%;
+}
+
+
+
+
+
+/* Banner Principal  */
+
+
+
+#Inicio {
+    background-image: url(/Imagenes/bg.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+
+}
+
+#Inicio .texto-inicio {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: .6rem;
+    margin-bottom: 1.4;
+}
+
+.texto-inicio span {
+
+    font-size: 24px;
+
+}
+
+.texto-inicio p {
+
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    letter-spacing: .2rem;
+
+}
+
+.texto-inicio a {
+    text-decoration: none;
+    color: #302f2f74;
+}
+
+
+
+
+
+/* Coleccion */
+
+img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+/* texto central */
+
+.texto-central {
+    text-align: center;
+
+}
+
+/* La clase coleccion contenido es la caja que contiene todas las imagenes y los textos usados en esta seccion */
+
+.coleccion-contenido {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+
+
+/* La clase fila es la caja que contiene cada imagen texto e icono por separado */
+
+.fila {
+    transition: all .35s ease;
+}
+
+/* Accion que sucede cuando se posiciona el mouse sobre la clase fila */
+
+.fila:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+
+
+}
+
+
+
+
+/* Descuento es el nombre de las seccion */
+
+.descuento {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/Imagenes/descuento.jpeg);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    align-items: center;
+}
+
+/* Descuento Texto es el contenedor de los textos */
+
+.descuento-texto h6 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: .6rem;
+    margin-bottom: 1.4rem;
+}
+
+.descuento-texto h4 {
+    font-weight: 500;
+    margin-bottom: 3rem;
+    letter-spacing: .2rem;
+}
+
+
+/* Descuento Boton */
+
+.boton {
+    display: inline-block;
+    padding: 13px 25px;
+    background: rgba(250, 235, 215, 0.443);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all .35s ease;
+
+}
+
+/* Efecto del boton */
+
+.boton:hover {
+    transform: translateY(-5px);
+    background: rgba(121, 104, 81, 0.443);
+
+}
+
+/* Seleccion de la a   */
+
+.descuento-texto a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Nuevos Ingresos contenido es el nombre de la clase que contiene todas las imagenes y textos , la caja contenedora.*/
+
+.nuevos-ing-contenido {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+.nuevos-ing-contenidoimg {
+    border-radius: 10px;
+
+}
+
+/* Caja contenedora que almacena las imagenes y textos */
+
+.accesorios-contenido {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* La clase caja almacena cada imagen y texto por separado */
+.caja {
+    position: relative;
+    transition: all .40s ease;
+
+}
+
+/* Titulo de los productos */
+
+.caja h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Precio de los productos */
+
+.caja h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+/* Acccion que sucede cuando se posiciona el mouse sobre la caja */
+
+.caja:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+
+}
+
+
+
+
+/* Sale es la etiqueta que se posiciona arriba de cada imagen */
+
+.sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    color: floralwhite;
+    border-radius: 10px;
+
+}
+
+
+
+/* Patrocinadores */
+
+
+.patrocinios {
+    padding: 50px 14%;
+}
+
+.patrocinios-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, auto));
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    transition: all .35s ease;
+    cursor: pointer;
+
+
+}
+
+.imagenes img:hover {
+    opacity: 1;
+}
+
+
+/* Contacto es el nombre del contenedor que almacena todos los enlaces e iconos*/
+
+.contacto {
+    display: grid;
+    gap: 2;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    background: hwb(36 80% 0%);
+}
+
+
+.contacto-content a {
+    display: block;
+    color: black;
+}
+
+.contacto-content a {
+    text-decoration: none;
+}
+
+
+/* Personalizacion de los iconos */
+
+.iconos i {
+    font-size: 25px;
+    margin: 1rem;
+    color: #555;
+    transition: all .35s ease;
+
+}
+
+
+
+/* Accion que sucede cuando se pasa el mouse sobre los iconos */
+
+.iconos i:hover {
+    transform: scale(0.9) translateY(-5px);
+}
+
+/* Copyright */
+.copy {
+    text-align: center;
+}
+
+/*  Scroll que te lleva hacia arriba  */
+.top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+/* Aplicacion de estilos al icono */
+.top i {
+    font-size: 22px;
+    color: fff;
+    padding: 14px;
+    background: hwb(36 80% 0%);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+#iconoUsuario {
+    cursor: pointer;
+}
+
+#iconoUsuario:hover {
+    cursor: pointer;
+}
+
+/* Background del nav */
+
+.container-fluid {
+    background: hwb(36 80% 0%);
+
+}
+
+/* Adaptacion responsiva */
+
+@media (max-width:670px) {
+    .fila {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
