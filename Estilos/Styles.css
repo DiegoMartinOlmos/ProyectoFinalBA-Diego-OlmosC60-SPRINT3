@@ -41,7 +41,7 @@ section {
 
 
 #Inicio {
-    background-image: url(/Imagenes/bg.jpg);
+    background-image: url("../Imagenes/bg.jpg");
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -137,9 +137,9 @@ img {
 /* Descuento es el nombre de las seccion */
 
 .descuento {
+    background-image: url(../Imagenes/descuento.jpeg);
     min-height: 100vh;
     width: 100%;
-    background-image: url(/Imagenes/descuento.jpeg);
     background-size: cover;
     background-position: center top;
     position: relative;
@@ -147,6 +147,7 @@ img {
     grid-template-columns: repeat(1fr, 1fr);
     align-items: center;
 }
+
 
 /* Descuento Texto es el contenedor de los textos */
 
