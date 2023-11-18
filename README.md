@@ -8,7 +8,8 @@ Caracteristicas Principales
 * Información Detallada: Obtén detalles completos sobre cada producto, incluyendo tallas disponibles, colores y cuidados.
 
 Como utilizar la tienda 
-*Por el momento la unica manera de acceder a la tienda es por medio del link proporcionado por el staff.
+* Por el momento la unica manera de acceder a la tienda es por medio del link proporcionado por el staff.
+
 
 Futuras actualizaciones 
 *Carrito de compra
@@ -24,3 +25,5 @@ Gracias por visitar Shux Store , este es mi primer proyecto oficial y esperamos 
 CorreoRandom123@gmail.com
 
 Mencion Especial a BA por brindar esta oportunidad de aprendizaje y a la profe daniela por toda la buena onda durante la cursada 
+
+
