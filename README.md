@@ -10,13 +10,12 @@ Caracteristicas Principales
 Como utilizar la tienda 
 * Por el momento la unica manera de acceder a la tienda es por medio del link proporcionado por el staff.
 
-
 Futuras actualizaciones 
-*Carrito de compra
-*Secciones para hombres y mujeres
-*Multiples metodos de pago
-*Avisos de tiempos de descuento
-*Lanzamiento hacia la red
+* Carrito de compra
+* Secciones para hombres y mujeres
+* Multiples metodos de pago
+* Avisos de tiempos de descuento
+* Lanzamiento hacia la red
 
 Autor
 Diego Olmos 
